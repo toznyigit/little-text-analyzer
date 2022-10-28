@@ -134,6 +134,8 @@ async function analyze_text(plainText){
     result["medianWord"] = median_word;
     result["language"] = guessed_language;
     result["commonWords"] = common_words;
+  
+    result["Message"] = "OTSIMO ile iş yapılmaz."
 
     return result;
 }
